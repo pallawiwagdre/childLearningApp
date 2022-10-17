@@ -1,40 +1,9 @@
-import 'package:flutter/material.dart'
-    show
-        AppBar,
-        Border,
-        BorderRadius,
-        BorderSide,
-        BoxDecoration,
-        Brightness,
-        BuildContext,
-        Colors,
-        Column,
-        Container,
-        CrossAxisAlignment,
-        EdgeInsets,
-        FontWeight,
-        Icon,
-        IconButton,
-        Icons,
-        InputDecoration,
-        MainAxisAlignment,
-        MaterialButton,
-        MediaQuery,
-        Navigator,
-        OutlineInputBorder,
-        Padding,
-        RoundedRectangleBorder,
-        Row,
-        Scaffold,
-        SingleChildScrollView,
-        SizedBox,
-        StatefulWidget,
-        Text,
-        TextField,
-        TextStyle,
-        Widget;
 // ignore: implementation_imports
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter/widgets.dart';
 
 class SignUpPage extends StatefulWidget {
   Widget build(BuildContext context) {

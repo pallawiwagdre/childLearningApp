@@ -64,7 +64,7 @@ class LoginPage extends StatelessWidget {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(50),
                       border: Border(
-                        bottom: const BorderSide(color: Colors.black),
+                        bottom: BorderSide(color: Colors.black),
                         top: const BorderSide(color: Colors.black),
                         left: BorderSide(color: Colors.black),
                         right: BorderSide(color: Colors.black),
@@ -159,3 +159,5 @@ Widget inputFile({label, obscureText = false}) {
     ],
   );
 }
+
+
