@@ -16,16 +16,7 @@ class WelcomePage extends StatelessWidget {
         secondaryColor: Colors.orange,
       ), key: 
     ),
-    CategoryCard(
-      title: '123',
-      primaryColor: Colors.greenAccent,
-      secondaryColor: Colors.green,
-      screen: CountingScreen(
-        title: '123',
-        primaryColor: Colors.greenAccent,
-        secondaryColor: Colors.green,
-      ), 
-    ),
+    // ignore: prefer_const_constructors
     CategoryCard(
       title: 'ABC',
       primaryColor: Colors.purpleAccent,
@@ -34,7 +25,17 @@ class WelcomePage extends StatelessWidget {
         title: 'ABC',
         primaryColor: Colors.purpleAccent,
         secondaryColor: Colors.purple,
-      ), 
+      ), key: null, 
+    ),
+    CategoryCard(
+      title: '123',
+      primaryColor: Colors.greenAccent,
+      secondaryColor: Colors.green,
+      screen: CountingScreen(
+        title: '123',
+        primaryColor: Colors.greenAccent,
+        secondaryColor: Colors.green,
+      ), key: null, 
     )
   ];
 
