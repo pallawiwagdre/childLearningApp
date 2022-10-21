@@ -17,15 +17,17 @@ class WelcomePage extends StatelessWidget {
       ), key: 
     ),
     // ignore: prefer_const_constructors
-    CategoryCard(
-      title: 'ABC',
-      primaryColor: Colors.purpleAccent,
-      secondaryColor: Colors.purple,
-      screen: AlphabetsScreen(
+    Container(
+      child: CategoryCard(
         title: 'ABC',
         primaryColor: Colors.purpleAccent,
         secondaryColor: Colors.purple,
-      ), 
+        screen: AlphabetsScreen(
+          title: 'ABC',
+          primaryColor: Colors.purpleAccent,
+          secondaryColor: Colors.purple,
+        ), 
+      ),
     ),
     CategoryCard(
       title: '123',
