@@ -63,6 +63,11 @@ flutter:
   
   assets:
     - assets/login.jpg
+    - assets/alpha.png
+    - assets/home.png
+    - assets/colors.png
+    - assets/numbers.png
+    
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
