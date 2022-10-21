@@ -25,7 +25,7 @@ class WelcomePage extends StatelessWidget {
         title: 'ABC',
         primaryColor: Colors.purpleAccent,
         secondaryColor: Colors.purple,
-      ), key: null, 
+      ), 
     ),
     CategoryCard(
       title: '123',
